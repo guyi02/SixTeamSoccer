@@ -24,7 +24,7 @@ function Home(){
         return <CenterSpinner/>;
   }
   if (error) {
-        return <Text>{error}</Text>;
+        return <Text>{error.graphQLErrors[0].message}</Text>;
   }
 
   return data.getUsers.map(({ email }) => (

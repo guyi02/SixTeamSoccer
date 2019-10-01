@@ -1,30 +1,38 @@
+import React, { Component } from 'react'
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-// PAGES
+// IMPORTS STACKS
+import Players from '~/navigations/PlayerStack';
+// IMPORTS PAGES
 import Home from '~/pages/Home';
-import Home2 from '~/pages/Dashboard';
+import Home3 from '~/pages/Dashboard';
 import Dashboard from '~/pages/Dashboard';
+
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import {colors} from '~/styles'
 
 
 const AppStackTabBottom = createBottomTabNavigator(
   {
     Home,
+    Players,
     Dashboard,
-    Home2
+    Home3
   },
   {
     defaultNavigationOptions: ({ navigation }) => ({
       tabBarIcon: ({ focused, horizontal, tintColor }) => {
         const { routeName } = navigation.state;
-        let IconComponent = Ionicons;
+        let IconComponent = Icon;
         let iconName;
         if (routeName === 'Home') {
-          iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-          // Sometimes we want to add badges to some icons.
-          // You can check the implementation below.
-          IconComponent = HomeIconWithBadge;
-        } else if (routeName === 'Settings') {
-          iconName = `ios-options`;
+          iconName = 'home'
+        } else if (routeName === 'Players') {
+          iconName = `suitcase`;
+        } else if (routeName === 'Dashboard') {
+          iconName = `network-wired`;
+        } else if (routeName === 'Home3') {
+          iconName = `cogs`
         }
 
         // You can return any component that you like here!
@@ -32,17 +40,15 @@ const AppStackTabBottom = createBottomTabNavigator(
       },
     }),
     tabBarOptions: {
-      activeTintColor: 'tomato',
-      inactiveTintColor: 'gray',
+      activeTintColor: 'white' ,
+      inactiveTintColor: colors.secondary,
+      showLabel: false,
+      tabStyle: {
+        backgroundColor: colors.primary,
+      }
     },
+    initialRouteName: 'Players'
   }
 );
 
 export default createAppContainer(AppStackTabBottom);
-
-
-
-
-
-
-

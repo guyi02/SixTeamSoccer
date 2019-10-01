@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { YellowBox } from 'react-native';
+import { YellowBox, StatusBar } from 'react-native';
 
 import '~/config/ReactotronConfig';
 import AsyncStorage from '@react-native-community/async-storage';
@@ -11,10 +11,22 @@ console.disableYellowBox = true;
 //  GRAPHQL
 import { ApolloClient, HttpLink, InMemoryCache } from 'apollo-boost';
 import { ApolloProvider } from '@apollo/react-hooks';
+import { setContext } from 'apollo-link-context';
+
+const authLink = setContext(async (_, { headers }) => {
+  // get the authentication token from local storage if it exists
+  const token = await AsyncStorage.getItem('@user:token');
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : "",
+    }
+  }
+});
 
 const client = new ApolloClient({
-  link: new HttpLink({uri: 'http://localhost:4000/'}),
-  cache: new InMemoryCache()
+  link: authLink.concat(new HttpLink({uri: 'http://localhost:4000/'})) ,
+  cache: new InMemoryCache(),
 });
 
 // Serviço que adiciona funções de roteamento para redux/redux sagas
