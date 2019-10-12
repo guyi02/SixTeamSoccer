@@ -14,8 +14,8 @@ export const Container = styled.View`
 export const HeaderArea = styled.View`
   justify-content: space-between;
   flex-direction: row;
-
   align-items: center;
+  height: 15%;
   background-color: ${colors.primary};
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -89,7 +89,7 @@ export const PlayerSurname = styled.Text`
     color: ${colors.white};
     position: absolute;
     right: 20px;
-    top: 35px;
+    top: 40px;
 `;
 
 export const ShadowCard = styled.View`

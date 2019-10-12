@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { YellowBox, StatusBar } from 'react-native';
 
-import '~/config/ReactotronConfig';
+import './config/ReactotronConfig';
 import AsyncStorage from '@react-native-community/async-storage';
 
 // Desabilita aviso (warning) de proptypes com tipagem divergente

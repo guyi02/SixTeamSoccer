@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* sixteamsoccerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sixteamsoccerTests.m */; };
+		00E356F31AD99517003FC87E /* SixTeamSoccerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SixTeamSoccerTests.m */; };
+		0CD040047B1BD0001874E06C /* libPods-SixTeamSoccer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DDB0FB9A9AEF72023E097F /* libPods-SixTeamSoccer.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* sixteamsoccerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sixteamsoccerTests.m */; };
-		895FECA16C16A08EEF25A6C1 /* libPods-sixteamsoccer-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4A67C8EF1D12F7B8E3C5AD /* libPods-sixteamsoccer-tvOSTests.a */; };
-		8F7C47508A9CA0A4E0DB119B /* libPods-sixteamsoccer-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92566BB898EB8F65CE3775 /* libPods-sixteamsoccer-tvOS.a */; };
-		C8F64897996D74AF5B9EB4E4 /* libPods-sixteamsoccerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F370EE68404ACF34FFCFF87 /* libPods-sixteamsoccerTests.a */; };
-		D703E6374D058C6855866B45 /* libPods-sixteamsoccer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DACC02338A31397C309541C /* libPods-sixteamsoccer.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* SixTeamSoccerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SixTeamSoccerTests.m */; };
+		40B541A88437EBDEBE8D37DB /* libPods-SixTeamSoccer-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDDC2E913EE0504012BC512 /* libPods-SixTeamSoccer-tvOSTests.a */; };
+		C15477FDA2A33D82200E2A19 /* libPods-SixTeamSoccer-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F1662CE18A0BAD585D18DD /* libPods-SixTeamSoccer-tvOS.a */; };
+		EF6F6790DFB0E2EC388C2E1F /* libPods-SixTeamSoccerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C96B21F26CC87D1FF3B3580F /* libPods-SixTeamSoccerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = sixteamsoccer;
+			remoteInfo = SixTeamSoccer;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "sixteamsoccer-tvOS";
+			remoteInfo = "SixTeamSoccer-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* sixteamsoccerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sixteamsoccerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SixTeamSoccerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixTeamSoccerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* sixteamsoccerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sixteamsoccerTests.m; sourceTree = "<group>"; };
-		063975A2B58C1183C074236B /* Pods-sixteamsoccer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccer.debug.xcconfig"; path = "Target Support Files/Pods-sixteamsoccer/Pods-sixteamsoccer.debug.xcconfig"; sourceTree = "<group>"; };
-		139035405E2C26206CBFE0DB /* Pods-sixteamsoccer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccer-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-sixteamsoccer-tvOSTests/Pods-sixteamsoccer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* sixteamsoccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sixteamsoccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sixteamsoccer/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = sixteamsoccer/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SixTeamSoccerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixTeamSoccerTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SixTeamSoccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixTeamSoccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SixTeamSoccer/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SixTeamSoccer/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sixteamsoccer/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sixteamsoccer/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sixteamsoccer/main.m; sourceTree = "<group>"; };
-		2B92566BB898EB8F65CE3775 /* libPods-sixteamsoccer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sixteamsoccer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* sixteamsoccer-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sixteamsoccer-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* sixteamsoccer-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sixteamsoccer-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B46F4838DC8556556BC8CA /* Pods-sixteamsoccer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccer-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-sixteamsoccer-tvOS/Pods-sixteamsoccer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4F370EE68404ACF34FFCFF87 /* libPods-sixteamsoccerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sixteamsoccerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DACC02338A31397C309541C /* libPods-sixteamsoccer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sixteamsoccer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDA725B9D3D5124D53714B5 /* Pods-sixteamsoccer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccer.release.xcconfig"; path = "Target Support Files/Pods-sixteamsoccer/Pods-sixteamsoccer.release.xcconfig"; sourceTree = "<group>"; };
-		C9C515DB80E55542815B128E /* Pods-sixteamsoccer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccer-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-sixteamsoccer-tvOSTests/Pods-sixteamsoccer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D9481C957D44412BEB168C04 /* Pods-sixteamsoccerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccerTests.release.xcconfig"; path = "Target Support Files/Pods-sixteamsoccerTests/Pods-sixteamsoccerTests.release.xcconfig"; sourceTree = "<group>"; };
-		DCBEA5F0BCEA8EFDB04F163C /* Pods-sixteamsoccerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccerTests.debug.xcconfig"; path = "Target Support Files/Pods-sixteamsoccerTests/Pods-sixteamsoccerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF4A67C8EF1D12F7B8E3C5AD /* libPods-sixteamsoccer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sixteamsoccer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SixTeamSoccer/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SixTeamSoccer/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SixTeamSoccer/main.m; sourceTree = "<group>"; };
+		143D302CB8661D5DFA3D02D8 /* Pods-SixTeamSoccer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccer-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccer-tvOS/Pods-SixTeamSoccer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		17DDB0FB9A9AEF72023E097F /* libPods-SixTeamSoccer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SixTeamSoccer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259FEE0C4A0552024340E825 /* Pods-SixTeamSoccer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccer-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccer-tvOS/Pods-SixTeamSoccer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* SixTeamSoccer-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SixTeamSoccer-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* SixTeamSoccer-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SixTeamSoccer-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E27069E32928B5F3C48D1D /* Pods-SixTeamSoccer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccer.release.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccer/Pods-SixTeamSoccer.release.xcconfig"; sourceTree = "<group>"; };
+		80AF8E209E7315D9AE7C48D6 /* Pods-SixTeamSoccerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccerTests.release.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccerTests/Pods-SixTeamSoccerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DE46930CDC5A38529F8B43E /* Pods-SixTeamSoccerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccerTests.debug.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccerTests/Pods-SixTeamSoccerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F1662CE18A0BAD585D18DD /* libPods-SixTeamSoccer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SixTeamSoccer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96B21F26CC87D1FF3B3580F /* libPods-SixTeamSoccerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SixTeamSoccerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDDC2E913EE0504012BC512 /* libPods-SixTeamSoccer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SixTeamSoccer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1442A81B8039D3C42F1779C /* Pods-SixTeamSoccer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccer-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccer-tvOSTests/Pods-SixTeamSoccer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E58460112B4F7E8B44266484 /* Pods-SixTeamSoccer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccer-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccer-tvOSTests/Pods-SixTeamSoccer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F74D331C5BCF3F7D59E617D1 /* Pods-sixteamsoccer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sixteamsoccer-tvOS.release.xcconfig"; path = "Target Support Files/Pods-sixteamsoccer-tvOS/Pods-sixteamsoccer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F99802E07D5BAD1422A04622 /* Pods-SixTeamSoccer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixTeamSoccer.debug.xcconfig"; path = "Target Support Files/Pods-SixTeamSoccer/Pods-SixTeamSoccer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F64897996D74AF5B9EB4E4 /* libPods-sixteamsoccerTests.a in Frameworks */,
+				EF6F6790DFB0E2EC388C2E1F /* libPods-SixTeamSoccerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D703E6374D058C6855866B45 /* libPods-sixteamsoccer.a in Frameworks */,
+				0CD040047B1BD0001874E06C /* libPods-SixTeamSoccer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7C47508A9CA0A4E0DB119B /* libPods-sixteamsoccer-tvOS.a in Frameworks */,
+				C15477FDA2A33D82200E2A19 /* libPods-SixTeamSoccer-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895FECA16C16A08EEF25A6C1 /* libPods-sixteamsoccer-tvOSTests.a in Frameworks */,
+				40B541A88437EBDEBE8D37DB /* libPods-SixTeamSoccer-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* sixteamsoccerTests */ = {
+		00E356EF1AD99517003FC87E /* SixTeamSoccerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* sixteamsoccerTests.m */,
+				00E356F21AD99517003FC87E /* SixTeamSoccerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = sixteamsoccerTests;
+			path = SixTeamSoccerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* sixteamsoccer */ = {
+		0C551B4A6EE333923AA91A85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99802E07D5BAD1422A04622 /* Pods-SixTeamSoccer.debug.xcconfig */,
+				49E27069E32928B5F3C48D1D /* Pods-SixTeamSoccer.release.xcconfig */,
+				143D302CB8661D5DFA3D02D8 /* Pods-SixTeamSoccer-tvOS.debug.xcconfig */,
+				259FEE0C4A0552024340E825 /* Pods-SixTeamSoccer-tvOS.release.xcconfig */,
+				E1442A81B8039D3C42F1779C /* Pods-SixTeamSoccer-tvOSTests.debug.xcconfig */,
+				E58460112B4F7E8B44266484 /* Pods-SixTeamSoccer-tvOSTests.release.xcconfig */,
+				9DE46930CDC5A38529F8B43E /* Pods-SixTeamSoccerTests.debug.xcconfig */,
+				80AF8E209E7315D9AE7C48D6 /* Pods-SixTeamSoccerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* SixTeamSoccer */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +148,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = sixteamsoccer;
+			name = SixTeamSoccer;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,28 +156,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9DACC02338A31397C309541C /* libPods-sixteamsoccer.a */,
-				2B92566BB898EB8F65CE3775 /* libPods-sixteamsoccer-tvOS.a */,
-				DF4A67C8EF1D12F7B8E3C5AD /* libPods-sixteamsoccer-tvOSTests.a */,
-				4F370EE68404ACF34FFCFF87 /* libPods-sixteamsoccerTests.a */,
+				17DDB0FB9A9AEF72023E097F /* libPods-SixTeamSoccer.a */,
+				C0F1662CE18A0BAD585D18DD /* libPods-SixTeamSoccer-tvOS.a */,
+				DFDDC2E913EE0504012BC512 /* libPods-SixTeamSoccer-tvOSTests.a */,
+				C96B21F26CC87D1FF3B3580F /* libPods-SixTeamSoccerTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3D4D493CF4E59BAB14B97BD0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				063975A2B58C1183C074236B /* Pods-sixteamsoccer.debug.xcconfig */,
-				AFDA725B9D3D5124D53714B5 /* Pods-sixteamsoccer.release.xcconfig */,
-				38B46F4838DC8556556BC8CA /* Pods-sixteamsoccer-tvOS.debug.xcconfig */,
-				F74D331C5BCF3F7D59E617D1 /* Pods-sixteamsoccer-tvOS.release.xcconfig */,
-				C9C515DB80E55542815B128E /* Pods-sixteamsoccer-tvOSTests.debug.xcconfig */,
-				139035405E2C26206CBFE0DB /* Pods-sixteamsoccer-tvOSTests.release.xcconfig */,
-				DCBEA5F0BCEA8EFDB04F163C /* Pods-sixteamsoccerTests.debug.xcconfig */,
-				D9481C957D44412BEB168C04 /* Pods-sixteamsoccerTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -175,12 +174,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* sixteamsoccer */,
+				13B07FAE1A68108700A75B9A /* SixTeamSoccer */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* sixteamsoccerTests */,
+				00E356EF1AD99517003FC87E /* SixTeamSoccerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				3D4D493CF4E59BAB14B97BD0 /* Pods */,
+				0C551B4A6EE333923AA91A85 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,10 +189,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* sixteamsoccer.app */,
-				00E356EE1AD99517003FC87E /* sixteamsoccerTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* sixteamsoccer-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* sixteamsoccer-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* SixTeamSoccer.app */,
+				00E356EE1AD99517003FC87E /* SixTeamSoccerTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* SixTeamSoccer-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* SixTeamSoccer-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,11 +200,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* sixteamsoccerTests */ = {
+		00E356ED1AD99517003FC87E /* SixTeamSoccerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sixteamsoccerTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SixTeamSoccerTests" */;
 			buildPhases = (
-				087648F08B426262251DFD3C /* [CP] Check Pods Manifest.lock */,
+				D6AAEE9A5C3C74224B9434F8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -215,37 +214,37 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = sixteamsoccerTests;
-			productName = sixteamsoccerTests;
-			productReference = 00E356EE1AD99517003FC87E /* sixteamsoccerTests.xctest */;
+			name = SixTeamSoccerTests;
+			productName = SixTeamSoccerTests;
+			productReference = 00E356EE1AD99517003FC87E /* SixTeamSoccerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* sixteamsoccer */ = {
+		13B07F861A680F5B00A75B9A /* SixTeamSoccer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sixteamsoccer" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SixTeamSoccer" */;
 			buildPhases = (
-				4BABA19767FEE75B29E1F152 /* [CP] Check Pods Manifest.lock */,
+				4FD9F2A59DC20CC239A219D5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B1114859065BF2CFF60E3AE2 /* [CP] Copy Pods Resources */,
+				969792677AF5B0E33FC1AA7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = sixteamsoccer;
-			productName = sixteamsoccer;
-			productReference = 13B07F961A680F5B00A75B9A /* sixteamsoccer.app */;
+			name = SixTeamSoccer;
+			productName = SixTeamSoccer;
+			productReference = 13B07F961A680F5B00A75B9A /* SixTeamSoccer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* sixteamsoccer-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* SixTeamSoccer-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sixteamsoccer-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SixTeamSoccer-tvOS" */;
 			buildPhases = (
-				C1383C3F519CA4A067823BD8 /* [CP] Check Pods Manifest.lock */,
+				2F138D3A1B10817858FB9832 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -256,16 +255,16 @@
 			);
 			dependencies = (
 			);
-			name = "sixteamsoccer-tvOS";
-			productName = "sixteamsoccer-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* sixteamsoccer-tvOS.app */;
+			name = "SixTeamSoccer-tvOS";
+			productName = "SixTeamSoccer-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* SixTeamSoccer-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* sixteamsoccer-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* SixTeamSoccer-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sixteamsoccer-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SixTeamSoccer-tvOSTests" */;
 			buildPhases = (
-				8885E040211F8E182F7104E1 /* [CP] Check Pods Manifest.lock */,
+				CF417B4795B224A9A1EFDF56 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -275,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "sixteamsoccer-tvOSTests";
-			productName = "sixteamsoccer-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* sixteamsoccer-tvOSTests.xctest */;
+			name = "SixTeamSoccer-tvOSTests";
+			productName = "SixTeamSoccer-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* SixTeamSoccer-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -304,11 +303,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "sixteamsoccer" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SixTeamSoccer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,10 +317,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* sixteamsoccer */,
-				00E356ED1AD99517003FC87E /* sixteamsoccerTests */,
-				2D02E47A1E0B4A5D006451C7 /* sixteamsoccer-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* sixteamsoccer-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* SixTeamSoccer */,
+				00E356ED1AD99517003FC87E /* SixTeamSoccerTests */,
+				2D02E47A1E0B4A5D006451C7 /* SixTeamSoccer-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* SixTeamSoccer-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,28 +374,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		087648F08B426262251DFD3C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sixteamsoccerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,7 +388,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4BABA19767FEE75B29E1F152 /* [CP] Check Pods Manifest.lock */ = {
+		2F138D3A1B10817858FB9832 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,14 +403,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sixteamsoccer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SixTeamSoccer-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8885E040211F8E182F7104E1 /* [CP] Check Pods Manifest.lock */ = {
+		4FD9F2A59DC20CC239A219D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,20 +425,20 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sixteamsoccer-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SixTeamSoccer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1114859065BF2CFF60E3AE2 /* [CP] Copy Pods Resources */ = {
+		969792677AF5B0E33FC1AA7F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sixteamsoccer/Pods-sixteamsoccer-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SixTeamSoccer/Pods-SixTeamSoccer-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -499,10 +477,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sixteamsoccer/Pods-sixteamsoccer-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SixTeamSoccer/Pods-SixTeamSoccer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C1383C3F519CA4A067823BD8 /* [CP] Check Pods Manifest.lock */ = {
+		CF417B4795B224A9A1EFDF56 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,7 +495,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sixteamsoccer-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SixTeamSoccer-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6AAEE9A5C3C74224B9434F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SixTeamSoccerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -569,7 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* sixteamsoccerTests.m in Sources */,
+				00E356F31AD99517003FC87E /* SixTeamSoccerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +595,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* sixteamsoccerTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* SixTeamSoccerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,12 +604,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* sixteamsoccer */;
+			target = 13B07F861A680F5B00A75B9A /* SixTeamSoccer */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* sixteamsoccer-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* SixTeamSoccer-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -621,7 +621,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = sixteamsoccer;
+			path = SixTeamSoccer;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -629,14 +629,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCBEA5F0BCEA8EFDB04F163C /* Pods-sixteamsoccerTests.debug.xcconfig */;
+			baseConfigurationReference = 9DE46930CDC5A38529F8B43E /* Pods-SixTeamSoccerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = sixteamsoccerTests/Info.plist;
+				INFOPLIST_FILE = SixTeamSoccerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -646,17 +646,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sixteamsoccer.app/sixteamsoccer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixTeamSoccer.app/SixTeamSoccer";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9481C957D44412BEB168C04 /* Pods-sixteamsoccerTests.release.xcconfig */;
+			baseConfigurationReference = 80AF8E209E7315D9AE7C48D6 /* Pods-SixTeamSoccerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = sixteamsoccerTests/Info.plist;
+				INFOPLIST_FILE = SixTeamSoccerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -666,18 +666,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sixteamsoccer.app/sixteamsoccer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixTeamSoccer.app/SixTeamSoccer";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063975A2B58C1183C074236B /* Pods-sixteamsoccer.debug.xcconfig */;
+			baseConfigurationReference = F99802E07D5BAD1422A04622 /* Pods-SixTeamSoccer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = sixteamsoccer/Info.plist;
+				INFOPLIST_FILE = SixTeamSoccer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -685,18 +685,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sixteamsoccer;
+				PRODUCT_NAME = SixTeamSoccer;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFDA725B9D3D5124D53714B5 /* Pods-sixteamsoccer.release.xcconfig */;
+			baseConfigurationReference = 49E27069E32928B5F3C48D1D /* Pods-SixTeamSoccer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = sixteamsoccer/Info.plist;
+				INFOPLIST_FILE = SixTeamSoccer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -704,14 +704,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sixteamsoccer;
+				PRODUCT_NAME = SixTeamSoccer;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38B46F4838DC8556556BC8CA /* Pods-sixteamsoccer-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 143D302CB8661D5DFA3D02D8 /* Pods-SixTeamSoccer-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -722,14 +722,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sixteamsoccer-tvOS/Info.plist";
+				INFOPLIST_FILE = "SixTeamSoccer-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.sixteamsoccer-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SixTeamSoccer-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -739,7 +739,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74D331C5BCF3F7D59E617D1 /* Pods-sixteamsoccer-tvOS.release.xcconfig */;
+			baseConfigurationReference = 259FEE0C4A0552024340E825 /* Pods-SixTeamSoccer-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -750,14 +750,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sixteamsoccer-tvOS/Info.plist";
+				INFOPLIST_FILE = "SixTeamSoccer-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.sixteamsoccer-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SixTeamSoccer-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -767,7 +767,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9C515DB80E55542815B128E /* Pods-sixteamsoccer-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = E1442A81B8039D3C42F1779C /* Pods-SixTeamSoccer-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -777,24 +777,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sixteamsoccer-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "SixTeamSoccer-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.sixteamsoccer-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SixTeamSoccer-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sixteamsoccer-tvOS.app/sixteamsoccer-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixTeamSoccer-tvOS.app/SixTeamSoccer-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139035405E2C26206CBFE0DB /* Pods-sixteamsoccer-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E58460112B4F7E8B44266484 /* Pods-SixTeamSoccer-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -804,17 +804,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "sixteamsoccer-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "SixTeamSoccer-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.sixteamsoccer-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SixTeamSoccer-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sixteamsoccer-tvOS.app/sixteamsoccer-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixTeamSoccer-tvOS.app/SixTeamSoccer-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -921,7 +921,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sixteamsoccerTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SixTeamSoccerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sixteamsoccer" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SixTeamSoccer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -939,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sixteamsoccer-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SixTeamSoccer-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sixteamsoccer-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SixTeamSoccer-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -957,7 +957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "sixteamsoccer" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SixTeamSoccer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

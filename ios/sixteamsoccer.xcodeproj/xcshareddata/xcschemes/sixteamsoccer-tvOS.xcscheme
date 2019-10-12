@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "sixteamsoccer-tvOS.app"
-               BlueprintName = "sixteamsoccer-tvOS"
-               ReferencedContainer = "container:sixteamsoccer.xcodeproj">
+               BuildableName = "SixTeamSoccer-tvOS.app"
+               BlueprintName = "SixTeamSoccer-tvOS"
+               ReferencedContainer = "container:SixTeamSoccer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "sixteamsoccer-tvOSTests.xctest"
-               BlueprintName = "sixteamsoccer-tvOSTests"
-               ReferencedContainer = "container:sixteamsoccer.xcodeproj">
+               BuildableName = "SixTeamSoccer-tvOSTests.xctest"
+               BlueprintName = "SixTeamSoccer-tvOSTests"
+               ReferencedContainer = "container:SixTeamSoccer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "sixteamsoccer-tvOSTests.xctest"
-               BlueprintName = "sixteamsoccer-tvOSTests"
-               ReferencedContainer = "container:sixteamsoccer.xcodeproj">
+               BuildableName = "SixTeamSoccer-tvOSTests.xctest"
+               BlueprintName = "SixTeamSoccer-tvOSTests"
+               ReferencedContainer = "container:SixTeamSoccer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "sixteamsoccer-tvOS.app"
-            BlueprintName = "sixteamsoccer-tvOS"
-            ReferencedContainer = "container:sixteamsoccer.xcodeproj">
+            BuildableName = "SixTeamSoccer-tvOS.app"
+            BlueprintName = "SixTeamSoccer-tvOS"
+            ReferencedContainer = "container:SixTeamSoccer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "sixteamsoccer-tvOS.app"
-            BlueprintName = "sixteamsoccer-tvOS"
-            ReferencedContainer = "container:sixteamsoccer.xcodeproj">
+            BuildableName = "SixTeamSoccer-tvOS.app"
+            BlueprintName = "SixTeamSoccer-tvOS"
+            ReferencedContainer = "container:SixTeamSoccer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "sixteamsoccer-tvOS.app"
-            BlueprintName = "sixteamsoccer-tvOS"
-            ReferencedContainer = "container:sixteamsoccer.xcodeproj">
+            BuildableName = "SixTeamSoccer-tvOS.app"
+            BlueprintName = "SixTeamSoccer-tvOS"
+            ReferencedContainer = "container:SixTeamSoccer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
