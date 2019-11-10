@@ -44,6 +44,9 @@ const AppStackTabBottom = createBottomTabNavigator(
       activeTintColor: 'white' ,
       inactiveTintColor: colors.secondary,
       showLabel: false,
+      style:{
+        backgroundColor: colors.primary,
+      },
       tabStyle: {
         backgroundColor: colors.primary,
       }

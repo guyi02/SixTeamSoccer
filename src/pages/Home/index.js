@@ -1,5 +1,5 @@
 import React, { Component, useEffect } from "react";
-import { View, Text, FlatList } from 'react-native'
+import { View, Text, SafeAreaView } from 'react-native'
 import { BemVindo, Container } from "./styles";
 import CenterSpinner from '~/utils/CenterSpinner'
 
@@ -31,9 +31,9 @@ function Home(){
   }
 
   return data.getUsers.map(({ email }) => (
-    <View>
+    <SafeAreaView>
           <Text>{email}</Text>
-    </View>
+    </SafeAreaView>
   ));
 }
 

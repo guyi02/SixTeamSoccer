@@ -62,6 +62,7 @@ const Login = ({navigation}) => {
       <Form>
         <InputText
           placeholder="E-mail"
+          autoCapitalize={false}
           value={email}
           onChangeText={email => setEmail({ email })}
           onEndEditing={() => this.passwordInput.focus()}
@@ -72,6 +73,7 @@ const Login = ({navigation}) => {
         <InputText
           ref={(input) => this.passwordInput = input}
           placeholder="Senha"
+          secureTextEntry={true}
           value={password}
           onChangeText={password => setPassword({ password })}
           returnKeyType='send'
