@@ -42,4 +42,20 @@ export const ImageLogo = styled.Image.attrs({
 `;
 
 
+export const ButtonSubmitText = styled.Text`
+  color: ${colors.white};
+  font-size: 15px;
+`;
+
+export const ButtonSubmit = styled.TouchableOpacity.attrs({
+  activeOpacity: 0.5
+})`
+  background-color: ${colors.success};
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+`;
+
+
 

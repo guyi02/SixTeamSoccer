@@ -1,25 +1,55 @@
+import React, { Component } from 'react'
 import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+// IMPORTS STACKS
+import Shop from '~/navigations/TeamStack';
 
-import Players from '~/pages/Players';
-import Player from '~/pages/Player';
+// IMPORTS PAGES
+import Home from '~/pages/Home';
+import Connections from '~/pages/Dashboard';
+import Configurations from '~/pages/Dashboard';
 
-const PlayerStack = createStackNavigator(
-    {
-        Players: {
-            screen: Players,
-            navigationOptions: {
-                header: null
-            }
-        },
-        Player: {
-            screen: Player,
-            navigationOptions: {
-                header: null
-            }
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import {colors} from '~/styles'
+
+
+const AppStackTabBottom = createBottomTabNavigator(
+  {
+    Home,
+    Shop,
+    Connections,
+    Configurations
+  },
+  {
+    defaultNavigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({ focused, horizontal, tintColor }) => {
+        const { routeName } = navigation.state;
+        let IconComponent = Icon;
+        let iconName;
+        if (routeName === 'Home') {
+          iconName = 'home'
+        } else if (routeName === 'Shop') {
+          iconName = `suitcase`;
+        } else if (routeName === 'Connections') {
+          iconName = `network-wired`;
+        } else if (routeName === 'Configurations') {
+          iconName = `cogs`
         }
-    }, {
-    initialRouteName: "Players"
-});
 
-export default createAppContainer(PlayerStack)
+        // You can return any component that you like here!
+        return <IconComponent name={iconName} size={25} color={tintColor} />;
+      },
+    }),
+    tabBarOptions: {
+      activeTintColor: 'white' ,
+      inactiveTintColor: colors.secondary,
+      showLabel: false,
+      tabStyle: {
+        backgroundColor: colors.primary,
+      }
+    },
+    initialRouteName: 'Shop'
+  }
+);
+
+export default createAppContainer(AppStackTabBottom);

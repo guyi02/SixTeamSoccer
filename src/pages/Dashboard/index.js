@@ -52,7 +52,7 @@ const Dashboard = () => (
     <Text style={styles.welcome}>Bem-vindo ao Template Avançado!</Text>
     <Text style={styles.instructions}>Essa é a tela Dashboard da sua aplicação =)</Text>
     <Text style={styles.instructions}>Você pode editar a tela no arquivo:</Text>
-    <Text style={[styles.instructions, styles.fileName]}>src/pages/Main/index.js</Text>
+    <Text style={[styles.instructions, styles.fileName]}>src/Pages/Main/index.js</Text>
   </ImageBackground>
 );
 

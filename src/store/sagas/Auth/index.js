@@ -1,6 +1,6 @@
 import api from '~/services/api';
 import { put, call } from 'redux-saga/effects';
-import LoginActions from '~/store/ducks/Auth/login';
+import LoginActions from '~/Store/ducks/Auth/login';
 
 
 import AsyncStorage from '@react-native-community/async-storage';

@@ -14,12 +14,12 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const authLink = setContext(async (_, { headers }) => {
-  // get the authentication token from local storage if it exists
-  const token = await AsyncStorage.getItem('@user:token');
+  let asyncToken = await AsyncStorage.getItem('@user:token');
+  const token = JSON.parse(asyncToken);
   return {
     headers: {
       ...headers,
-      authorization: token ? `Bearer ${token}` : "",
+      authorization: token ? `Bearer ${token}` : null
     }
   }
 });
@@ -33,7 +33,6 @@ const client = new ApolloClient({
 import { setNavigator } from '~/services/navigationService';
 
 import Routes from '~/routes';
-
 
 export default class App extends Component {
 

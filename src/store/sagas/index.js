@@ -3,7 +3,7 @@ import { all, takeLatest } from 'redux-saga/effects';
 import {LoginTypes} from '~/store/ducks/Auth/login';
 
 // INITIALIZES
-import { Login, Register } from './Auth/';
+import { Login, Register } from './Auth';
 
 
 export default function* rootSaga() {

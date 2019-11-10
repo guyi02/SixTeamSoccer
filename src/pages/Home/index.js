@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import { View, Text, FlatList } from 'react-native'
 import { BemVindo, Container } from "./styles";
-import CenterSpinner from '~/Util/CenterSpinner'
+import CenterSpinner from '~/utils/CenterSpinner'
 
 
 import {gql} from 'apollo-boost'
 import { useQuery } from '@apollo/react-hooks';
+import AsyncStorage from "@react-native-community/async-storage";
 
 const FETCH_USERS = gql`
    query{
@@ -18,6 +19,8 @@ const FETCH_USERS = gql`
 `
 
 function Home(){
+
+  // Apollo client status
   const { loading, error, data } = useQuery(FETCH_USERS);
 
   if(loading){
