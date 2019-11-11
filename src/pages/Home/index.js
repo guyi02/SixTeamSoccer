@@ -4,9 +4,8 @@ import { BemVindo, Container } from "./styles";
 import CenterSpinner from '~/utils/CenterSpinner'
 
 
-import {gql} from 'apollo-boost'
+import { gql } from 'apollo-boost'
 import { useQuery } from '@apollo/react-hooks';
-import AsyncStorage from "@react-native-community/async-storage";
 
 const FETCH_USERS = gql`
    query{
@@ -16,23 +15,24 @@ const FETCH_USERS = gql`
         is_team
       }
    }
-`
+`;
 
-function Home(){
 
+const Home = ({ navigation }) => {
   // Apollo client status
   const { loading, error, data } = useQuery(FETCH_USERS);
 
-  if(loading){
-        return <CenterSpinner/>;
+  if (loading) {
+    return <CenterSpinner />;
   }
+
   if (error) {
-        return <Text>{error.graphQLErrors[0].message}</Text>;
+    return <Text>{error.graphQLErrors[0].message}</Text>;
   }
 
   return data.getUsers.map(({ email }) => (
     <SafeAreaView>
-          <Text>{email}</Text>
+      <Text>{email}</Text>
     </SafeAreaView>
   ));
 }

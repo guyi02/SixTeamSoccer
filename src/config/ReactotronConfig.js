@@ -7,7 +7,7 @@ if (__DEV__) {
     .useReactNative()
     .use(reactotronRedux())
     .use(sagaPlugin())
-    .configure({ host: '192.168.0.14' })
+    .configure({ host: '192.168.15.25' })
     .connect();
 
   tron.clear();

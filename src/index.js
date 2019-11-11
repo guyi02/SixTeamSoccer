@@ -19,13 +19,13 @@ const authLink = setContext(async (_, { headers }) => {
   return {
     headers: {
       ...headers,
-      authorization: token ? `Bearer ${token}` : null
-    }
-  }
+      authorization: token ? `Bearer ${token}` : null,
+    },
+  };
 });
 
 const client = new ApolloClient({
-  link: authLink.concat(new HttpLink({uri: 'http://localhost:4000/'})) ,
+  link: authLink.concat(new HttpLink({ uri: 'http://localhost:4000/' })),
   cache: new InMemoryCache(),
 });
 
@@ -35,7 +35,6 @@ import { setNavigator } from '~/services/navigationService';
 import Routes from '~/routes';
 
 export default class App extends Component {
-
   static navigationOptions = { header: null };
 
   render() {
@@ -43,7 +42,6 @@ export default class App extends Component {
       <ApolloProvider client={client}>
         <Routes ref={setNavigator} />
       </ApolloProvider>
-    )
+    );
   }
 }
-

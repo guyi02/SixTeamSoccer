@@ -5,9 +5,23 @@ import { Container, Logo, Texto, Indicador } from "./styles";
 import AsyncStorage from "@react-native-community/async-storage";
 import LottieView from 'lottie-react-native';
 
-const LoadingScreen = ({navigation}) => {
+import {gql} from 'apollo-boost'
+import { useQuery } from '@apollo/react-hooks';
 
-  const [loading, setLoading] = useState(true);
+const REFREH_TOKEN = gql`
+  query{
+  refreshToken{
+    token
+    logged
+  }
+}
+`;
+
+
+const LoadingScreen = ({navigation}) => {
+  // Apollo client status
+  const { data } = useQuery(REFREH_TOKEN);
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -15,15 +29,10 @@ const LoadingScreen = ({navigation}) => {
     }, 4000);
   })
 
-  getUserInfo = async () => {
-    setLoading(false);
-    let tokenResponse = await AsyncStorage.getItem("@user:token");
-    const token = JSON.parse(tokenResponse); 
-    if(token){
-      setLoading(true);
+  getUserInfo = () => {        
+    if(data){
       navigation.navigate("PlayerStack");
     }else{
-      setLoading(true);
       navigation.navigate("AuthStack");
     }
   }
