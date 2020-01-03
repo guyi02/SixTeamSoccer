@@ -3,20 +3,25 @@ import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import PlayerStack from '~/navigations/PlayerStack';
 // AUTH NAVIGATIONS
 import AuthStack from '~/navigations/AuthStack';
-// AUTH NAVIGATIONS
-import AuthLoading from '~/navigations/LoadingScreen';
+// Register NAVIGATIONS
+import RegisterStack from '~/navigations/RegisterStack';
+
+import LoadingScreen from '~/navigations/LoadingScreen';
+import StepsPage from '~/pages/Steps';
 
 // SWITCH DE ROTAS PRIMÁRIAS
 const Routes = createAppContainer(
   createSwitchNavigator(
     {
-      AuthLoading,
+      LoadingScreen,
+      StepsPage,
+      RegisterStack,
       AuthStack,
       PlayerStack,
       // TeamStack,
     },
     {
-      initialRouteName: 'AuthLoading',
+      initialRouteName: 'LoadingScreen',
     }
   )
 );
