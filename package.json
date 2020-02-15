@@ -41,7 +41,7 @@
     "reduxsauce": "^1.1.0",
     "seamless-immutable": "^7.1.4",
     "styled-components": "^4.3.2",
-    "yarn": "^1.19.0"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
